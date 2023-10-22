@@ -627,3 +627,4 @@
 ### Features
 
 * **workflow:** added release please ([e6ba9e8](https://github.com/StanGirard/quivr/commit/e6ba9e80f48a1d8822c99e5b77e064dc2b18e718))
+lwwshare
