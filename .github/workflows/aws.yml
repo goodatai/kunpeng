@@ -13,8 +13,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          context: './frontend'
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -23,6 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          cd frontend
           npm install -g pnpm yarn
           pnpm install --frozen-lockfile
 
