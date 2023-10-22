@@ -1,0 +1,1 @@
+https://www.shutterstock.com/fr/image-vector/cap-vector-thin-line-icons-1553434745

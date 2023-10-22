@@ -1,0 +1,25 @@
+2023-10-07T07:26:14.867Z    +64ms [debug] Config loaded {"version":"2.27.0","cdkVersion":"2.95.1","constructsVersion":"10.2.69","config":{"name":"www-goodat-ai","region":"us-west-1","stage":"local","ssmPrefix":"/sst/www-goodat-ai/local/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":217,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1696663574812.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":128}},"bytes":310}}},"paths":{"config":"/Users/kai/Projects/www.goodat.ai/sst.config.ts","root":"/Users/kai/Projects/www.goodat.ai","out":"/Users/kai/Projects/www.goodat.ai/.sst","artifacts":"/Users/kai/Projects/www.goodat.ai/.sst/artifacts"}}
+2023-10-07T07:26:16.207Z  +1340ms [debug] Using AWS profile 
+2023-10-07T07:26:16.223Z    +16ms [debug] Created AWS client IoTClient
+2023-10-07T07:26:16.223Z     +0ms [debug] Getting IoT endpoint
+2023-10-07T07:26:16.240Z    +17ms [debug] Synthesizing stacks...
+2023-10-07T07:26:16.245Z     +5ms [debug] Created AWS client STSClient
+2023-10-07T07:26:16.899Z   +654ms [debug] Using IoT endpoint: a2rawq0um80504-ats.iot.us-west-1.amazonaws.com
+2023-10-07T07:26:16.899Z     +0ms [debug] Initializing bootstrap context
+2023-10-07T07:26:16.901Z     +2ms [debug] Created AWS client CloudFormationClient
+2023-10-07T07:26:16.944Z    +43ms [debug] Using identity Account: 490941513205 User: AIDAXETTE7X25BGZN3O7Z
+2023-10-07T07:26:16.950Z     +6ms [debug] Generating types in /Users/kai/Projects/www.goodat.ai/.sst/types
+2023-10-07T07:26:17.044Z    +94ms [debug] Running 1 deferred tasks with concurrency: 9
+2023-10-07T07:26:17.750Z   +706ms [debug] Loaded bootstrap status
+2023-10-07T07:26:17.750Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.2","bucket":"sstbootstrap-uswest107eb6d20-ybdpka0z7sfl"}
+2023-10-07T07:26:17.751Z     +1ms [debug] Created AWS client S3Client
+2023-10-07T07:26:17.828Z    +77ms [debug] 
+2023-10-07T07:26:17.828Z     +0ms [debug] Loading v2 AWS SDK
+2023-10-07T07:26:17.828Z     +0ms [debug] Finished synthesizing
+2023-10-07T07:26:18.606Z   +778ms [debug] IoT connected
+2023-10-07T07:26:18.741Z   +135ms [debug] Fetching metadata for stack local-www-goodat-ai-Site failed {"name":"NoSuchKey","$fault":"client","$metadata":{"httpStatusCode":404,"requestId":"J69Y583M2SC41H7Y","extendedRequestId":"QaK3QVkZsn4kdoquIu0cCFUlvlOGbMGAo+msq8qZp5sZ6jswTteEyyfrw5+/28A/eViQxxKjMKHdqUPcJcXGwg==","attempts":1,"totalRetryDelay":0},"Code":"NoSuchKey","Key":"stackMetadata/app.www-goodat-ai/stage.local/stack.local-www-goodat-ai-Site.json","RequestId":"J69Y583M2SC41H7Y","HostId":"QaK3QVkZsn4kdoquIu0cCFUlvlOGbMGAo+msq8qZp5sZ6jswTteEyyfrw5+/28A/eViQxxKjMKHdqUPcJcXGwg==","message":"The specified key does not exist."}
+2023-10-07T07:26:18.743Z     +2ms [debug] Created AWS client SSMClient
+2023-10-07T07:47:07.340Z +1248597ms [debug] IoT error {"errno":-54,"code":"ECONNRESET","syscall":"read","type":"error","target":{"_events":{},"_eventsCount":0,"readyState":3,"bytesReceived":17,"extensions":null,"protocol":"mqttv3.1","_binaryType":"arraybuffer","_closeFrameReceived":false,"_closeFrameSent":false,"_closeMessage":"","_closeTimer":null,"_finalized":true,"_closeCode":1006,"_receiver":null,"_sender":null,"_socket":null,"_ultron":null,"protocolVersion":13,"_isServer":false,"url":"wss://a2rawq0um80504-ats.iot.us-west-1.amazonaws.com/mqtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXETTE7X23J6JVKU5%2F20231007%2Fus-west-1%2Fiotdevicegateway%2Faws4_request&X-Amz-Date=20231007T072617Z&X-Amz-SignedHeaders=host&X-Amz-Signature=e750bc5129ceb0256f57ec0385bebb48d04a39cdc409a303181177fddd1e7469","_req":null}}
+2023-10-07T07:47:07.340Z     +0ms [debug] IoT closed
+2023-10-07T07:47:08.394Z  +1054ms [debug] IoT reconnected
+2023-10-07T07:47:09.642Z  +1248ms [debug] IoT connected
